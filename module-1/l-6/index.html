@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>REGESTRATION FORM</h2>
+      <div class="line"></div>
+      <form action="#">
+        <label for="F_name">
+          <p>Enter first name</p>
+          <input id="F_name" type="text" placeholder="Enter first name"
+        /></label>
+        <label for="L_name">
+          <p>Enter last name</p>
+          <input id="L_name" type="text" placeholder="Enter last name"
+        /></label>
+        <label for="Tel">
+          <p>Enter phone number</p>
+          <input id="tel" type="tel" placeholder="Enter phone number"
+        /></label>
+        <label for="email">
+          <p>Enter email address</p>
+          <input id="email" type="email" placeholder="Enter email address"
+        /></label>
+        <label class="gender">
+          <span>Male</span><input type="radio" name="gender" id="male" />
+          <span>Female</span><input type="radio" name="gender" id="Female" />
+        </label>
+        <select name="region" id="region">
+          <option value="1">Toshkent</option>
+          <option value="2">Farg`ona</option>
+          
+          <option value="3">Andijon</option>
+        </select>
+        <input type="file" name="image" id="img" />
+        <label for="birth">
+          <p>Enter Birthday</p>
+          <input type="date" name="birth" id="birth" />
+        </label>
+        <label for="password">
+          <p>Enter password</p>
+          <input
+            type="password"
+            placeholder="Enter password"
+            id="password"
+            aria-label="Enter password"
+          />
+        </label>
+        <label for="check" class="confirm">
+          <p>Confirm all access!</p>
+          <input type="che" name="confirm" id="check" />
+        </label>
+        <button type="submit">Sing Up</button>
+      </form>
+    </div>
+  </body>
+</html>

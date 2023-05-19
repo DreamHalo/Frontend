@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Raleway:wght@400;500;600;700&display=swap");
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+:root {
+  --Primary-50: linear-gradient(
+    279.69deg,
+    rgba(0, 121, 109, 0.1) 0%,
+    rgba(56, 198, 130, 0.1) 100%
+  );
+  --Primary-100: linear-gradient(
+    279.69deg,
+    rgba(0, 121, 109, 0.2) 0%,
+    rgba(56, 198, 130, 0.2) 100%
+  );
+  --Primary-200: linear-gradient(
+    279.69deg,
+    rgba(0, 121, 109, 0.4) 0%,
+    rgba(56, 198, 130, 0.4) 100%
+  );
+  --Primary-300: linear-gradient(
+    279.69deg,
+    rgba(0, 121, 109, 0.6) 0%,
+    rgba(56, 198, 130, 0.6) 100%
+  );
+  --Primary-400: linear-gradient(
+    278.87deg,
+    rgba(0, 121, 109, 0.8) 0.61%,
+    rgba(56, 198, 130, 0.8) 100%
+  );
+}
+
+

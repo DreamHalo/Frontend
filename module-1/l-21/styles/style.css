@@ -1,0 +1,141 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  max-width: 397px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 4px 4px 38px #ccc;
+}
+
+.img {
+  background-image: url(../assets/images/Rectangle\ 1135.png);
+  width: 100%;
+  height: 196px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img_point {
+  position: absolute;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.email,
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  max-width: 300px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.google {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: rgb(3, 3, 3);
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px #ccc;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #2a2b2e;
+  margin-top: 10px;
+}
+
+.forgot-password {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #2a2b2e;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .card {
+    max-width: 100%;
+    margin: 0;
+    box-shadow: none;
+  }
+
+  .img {
+    height: auto;
+  }
+
+  .email,
+  input[type="text"],
+  input[type="password"],
+  .check,
+  .forgot-password {
+    font-size: 12px;
+  }
+}

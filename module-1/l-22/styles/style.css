@@ -1,0 +1,24 @@
+*::after, *::before, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.container{
+    max-width: 1440px;
+    padding: 0 20px;
+    margin:  0 auto;
+}
+
+:root -maincolor{
+    background: #00704A;
+}
+
+
+:root -colorbrown{
+    background: #B37C43;
+}
+
+

@@ -1,0 +1,33 @@
+*::after,
+*::before,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.cotainer {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.grid-container {
+  border: 2px solid #000;
+  display: grid;
+  height: 100vh;
+  justify-self: stretch;
+  align-items: stretch;
+  grid-template-columns: repeat(4, lfr);
+  column-gap: 20px;
+  background-color: blue;
+}
+.grid-item {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  background-color: white;
+}
+.grid-item:nth-child(1) {
+  grid-row: 1/3;
+}
+
+
+

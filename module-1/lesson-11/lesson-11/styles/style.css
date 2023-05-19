@@ -1,0 +1,145 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+:root {
+  --main-color: #2d76f9;
+  --main-bg: #d6e5fd;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  z-index: 99;
+
+  backdrop-filter: blur(3px);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+}
+
+.nav {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 85px; 
+  list-style-type: none;
+}
+.inner-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 50px;
+  list-style-type: none;
+}
+.inner-list .link {
+  color: #212121;
+  text-decoration: none;
+}
+.nav__btn {
+  background-color: #fff;
+  color: var(--main-color);
+  border-radius: 50px;
+  width: 175px;
+  height: 50px;
+  border: 1px solid var(--main-color);
+}
+main {
+  width: 100%;
+}
+#intro {
+  min-height: 877px;
+}
+#intro .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  max-width: 553px;
+}
+.left .title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 85px;
+  color: #212121;
+}
+.left .text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #747474;
+}
+.left .btn {
+  margin-top: 50px;
+  width: 250px;
+  height: 75px;
+  background: #2d76f9;  
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  border-radius: 37.5px;
+  border: none;
+}
+
+.right {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 0 100px;
+  height: 877px;
+  background-color: var(--main-bg);
+}
+.right::before {
+  transform: rotate(-180deg);
+  position: absolute;
+  content: "";
+  width: 290px;
+  height: 220px;
+  background-image: url(../assets/icons/Ellipse.svg);
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.4;
+}
+.right::after {
+  position: absolute;
+  content: "";
+  width: 290px;
+  height: 220px;
+  background-image: url(../assets/icons/Ellipse.svg);
+  background-repeat: no-repeat;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0.4;
+}
+.right img {
+  position: relative;
+  z-index: 9999999;
+}
+
+
+
